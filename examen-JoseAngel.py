@@ -1,6 +1,6 @@
 
 def menu():
-    print("Menú principal")
+    print("Menú principal:")
     print("1-Sumar")
     print("2-Salir")
 
@@ -25,6 +25,8 @@ def principal():
             menu()    
             opciones = int(input("Elige una de las opciones:\n"))
         print("Has terminado el programa")
-    except: print("Tienes que introducir una de las dos opciones(1 o 2)")
+    except: 
+        print("Tienes que escribir una de las dos opciones (1 o 2)")
+        principal()
 
 principal()
