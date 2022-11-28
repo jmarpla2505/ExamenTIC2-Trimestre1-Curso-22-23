@@ -22,6 +22,8 @@ def principal():
                     sum=suma(num1,num2)
                     print("La suma es",sum)
                 except: print("Tienes que introducir números para poder sumarlos")
+            else:
+                print("Solo están contempladas las opciones 1 o 2")
             menu()    
             opciones = int(input("Elige una de las opciones:\n"))
         print("Has terminado el programa")
